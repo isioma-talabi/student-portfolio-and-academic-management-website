@@ -1,0 +1,147 @@
+/* Landing Page Styles */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+:root {
+  --font-family: "Fraunces", serif;
+  --font-family-body: "Outfit", sans-serif;
+}
+
+body {
+  background-color: #f2f2f2;
+  font-family: var(--font-family-body);
+  font-weight: 200;
+  font-size: 19px;
+  margin: 0;
+  padding: 0;
+  max-width: 100vw;
+  overflow-y: hidden;
+}
+
+/* Nav Bar Styles */
+
+#name-logo {
+  font-family: var(--font-family);
+  list-style: none;
+  font-weight: 400;
+  font-size: 25px;
+  margin-right: 950px;
+}
+
+.name-logo-sty {
+  transition: color 0.3s ease-in;
+}
+
+.name-logo-sty:hover {
+  color: #ec5800;
+}
+
+#contact-btn {
+  list-style: none;
+}
+
+a {
+  list-style: none;
+}
+ul {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+ul > li {
+  font-family: var(--font-family-body);
+  list-style: none;
+  font-size: 19px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  font-weight: 400;
+  transition: color 0.3s ease-in;
+}
+
+a:hover {
+  color: #005eb8;
+  text-decoration-line: underline;
+  text-decoration-style: wavy;
+}
+
+/* Main Styles */
+
+h1 {
+  text-align: center;
+  font-size: 120px;
+  font-family: var(--font-family);
+  transition: color 0.3s ease-in;
+  margin: 0;
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+
+h1:hover {
+  color: #e30b5d;
+  text-decoration-line: underline;
+  text-decoration-style: wavy;
+}
+
+h2 {
+  font-size: 40px;
+  transition: color 0.3s ease-in;
+}
+
+h2:hover {
+  color: #208aae;
+  text-decoration-line: underline;
+  text-decoration-style: wavy;
+}
+
+h3 {
+  transition: color 0.3s ease-in;
+}
+
+h3:hover {
+  color: #ee6c4d;
+  text-decoration-line: underline;
+  text-decoration-style: wavy;
+}
+
+hr {
+  width: 85%;
+  background-color: grey;
+}
+
+.bio-profile {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+}
+
+.bio-text {
+  margin-top: 10px;
+  margin-right: 300px;
+  margin-left: 120px;
+  margin-bottom: 0;
+}
+
+#profile-img {
+  position: relative;
+  z-index: -1;
+  bottom: 130px;
+  height: auto;
+  max-width: 90%;
+}
+
+.note {
+  text-align: center;
+  margin-bottom: 30px;
+  transition: color 0.3s ease-in;
+}
+
+.note:hover {
+  color: #03254e;
+  text-decoration-line: underline;
+  text-decoration-style: wavy;
+}
