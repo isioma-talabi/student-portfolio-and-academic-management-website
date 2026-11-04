@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Academic Planner by Isioma</title>
+
+    <!-- Fonts: Fraunces & Lato -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Font: Outfit -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="./css-styles/academicplanner.css" />
+  </head>
+  <body>
+    <!-- Header and Navigation Menus -->
+    <header>
+      <nav>
+        <ul>
+          <span id="name-logo">
+            <li><a class="name-logo-sty" href="./index.html">Isioma.T</a></li>
+          </span>
+          <li><a href="./about.html">About Me</a></li>
+          <li><a href="./projects.html">Projects</a></li>
+          <li><a href="./academicplanner.html">Academic Planner</a></li>
+          <span id="contact-btn">
+            <li><a href="./contact.html">Contact</a></li>
+          </span>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Main Content for Academic Planner begins here -->
+    <main>
+      <section>
+        <h1>Academic Planner</h1>
+        <p class="intro-academic-planner">
+          Stay ahead of what is due with my academic planner.
+        </p>
+      </section>
+
+      <hr />
+      <section class="planner-wrapper">
+        <div class="planner-page">
+          <div class="input-btn-wrapper">
+            <input
+              type="text"
+              id="planner-input"
+              placeholder="e.g Calculus Assignment"
+            />
+            <button id="add-item-button">Add item</button>
+          </div>
+
+          <div id="planner-list">
+            <ul id="planner-list-items"></ul>
+          </div>
+        </div>
+
+        <section class="img-width">
+          <img class="page-image" src="./assets/time.png" alt="" />
+        </section>
+      </section>
+    </main>
+  </body>
+
+  <script src="./scripts/academicplanner.js"></script>
+</html>

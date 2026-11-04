@@ -1,0 +1,199 @@
+/* Landing Page Styles */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+:root {
+  --font-family: "Fraunces", serif;
+  --font-family-body: "Outfit", sans-serif;
+}
+
+body {
+  background-color: #eeeeee;
+  font-family: var(--font-family-body);
+  font-weight: 200;
+  font-size: 18px;
+  margin: 0;
+  padding: 0;
+}
+
+/* Nav Bar Styles */
+
+#name-logo {
+  font-family: var(--font-family);
+  list-style: none;
+  font-weight: 400;
+  font-size: 25px;
+  margin-right: 450px;
+}
+
+.name-logo-sty {
+  transition: color 0.3s ease-in;
+}
+
+.name-logo-sty:hover {
+  color: #ec5800;
+}
+
+#contact-btn {
+  list-style: none;
+}
+
+a {
+  list-style: none;
+}
+ul {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+ul > li {
+  font-family: var(--font-family-body);
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  font-weight: 400;
+  transition: color 0.3s ease-in;
+}
+
+a:hover {
+  color: #7d2e68;
+  text-decoration-line: underline;
+  text-decoration-style: wavy;
+}
+
+/* Main Styles */
+
+h1 {
+  text-align: center;
+  font-size: 100px;
+  font-family: var(--font-family);
+  transition: color 0.3s ease-in;
+  margin-top: 50px;
+  margin-bottom: 10px;
+}
+
+h1:hover {
+  color: #e30b5d;
+  text-decoration-line: underline;
+  text-decoration-style: wavy;
+}
+
+.intro-academic-planner {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+hr {
+  width: 95%;
+  background-color: grey;
+}
+
+/* Planner Styles */
+
+.planner-wrapper {
+  display: flex;
+  /* justify-content: space-between; */
+
+  margin: 0 auto;
+  width: 80%;
+}
+
+.input-btn-wrapper {
+  margin-top: 30px;
+}
+
+input {
+  width: 641px;
+  height: 50px;
+  border-radius: 8px;
+  border: none;
+  padding: 20px;
+  font-family: var(--font-family-body);
+  font-size: 18px;
+  color: #242323;
+  background-color: #d9d9d9;
+}
+
+button {
+  height: 50px;
+  width: 134px;
+  background-color: black;
+  border: none;
+  border-radius: 8px;
+  font-family: var(--font-family-body);
+  font-size: 18px;
+  color: whitesmoke;
+  transition: background-color 0.3s ease-in;
+}
+
+button:hover {
+  background-color: #7d2e68;
+}
+
+#planner-list {
+  background-color: white;
+  width: 779px;
+  min-height: 500px; /* Limits the height but allows the list to grow */
+  margin-top: 10px;
+  border-radius: 8px;
+  padding: 20px;
+  overflow-y: auto; /* Adds scroll when the list exceeds max height */
+}
+
+#planner-list-items {
+  display: block;
+  padding-left: 10px;
+}
+
+img {
+  height: 600px;
+  margin-left: 200px;
+}
+
+/* Styling elements created with Javascript */
+
+li {
+  list-style: none;
+  color: black;
+  margin-bottom: 15px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.style-btn {
+  position: relative;
+  top: 5px;
+  height: 20px;
+  margin-left: 20px;
+}
+
+.inline-edit-input {
+  font-family: var(--font-family-body);
+  width: 200px;
+  height: 10px;
+  margin-bottom: 20px;
+  font-size: 18px;
+  background-color: white;
+  color: black;
+  padding: 10px;
+}
+
+.inline-edit-input:focus {
+  border: 1px solid plum;
+  outline: none;
+}
+
+.alert-user::placeholder {
+  color: #e30b5d; /* Change to your desired color */
+  opacity: 1; /* Optional: Ensures the placeholder color is fully opaque */
+}
+
+.remove-alert-user::placeholder {
+  color: #757575;
+}
