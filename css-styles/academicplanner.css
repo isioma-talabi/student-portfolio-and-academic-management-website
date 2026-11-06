@@ -144,6 +144,7 @@ button:hover {
   border-radius: 8px;
   padding: 20px;
   overflow-y: auto; /* Adds scroll when the list exceeds max height */
+  border: 2px solid #e30b5d;
 }
 
 #planner-list-items {
@@ -153,7 +154,7 @@ button:hover {
 
 img {
   height: 600px;
-  margin-left: 200px;
+  margin-left: 100px;
 }
 
 /* Styling elements created with Javascript */
@@ -190,6 +191,7 @@ li {
 }
 
 .alert-user::placeholder {
+  font-family: var(--font-family-body);
   color: #e30b5d; /* Change to your desired color */
   opacity: 1; /* Optional: Ensures the placeholder color is fully opaque */
 }

@@ -1,0 +1,166 @@
+/* Landing Page Styles */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+:root {
+  --font-family: "Fraunces", serif;
+  --font-family-body: "Outfit", sans-serif;
+}
+
+body {
+  background-color: #eeeeee;
+  font-family: var(--font-family-body);
+  font-weight: 200;
+  font-size: 18px;
+  margin: 0;
+  padding: 0;
+}
+
+/* Nav Bar Styles */
+
+#name-logo {
+  font-family: var(--font-family);
+  list-style: none;
+  font-weight: 400;
+  font-size: 25px;
+  margin-right: 450px;
+}
+
+.name-logo-sty {
+  transition: color 0.3s ease-in;
+}
+
+.name-logo-sty:hover {
+  color: #ec5800;
+}
+
+#contact-btn {
+  list-style: none;
+}
+
+a {
+  list-style: none;
+}
+ul {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+ul > li {
+  font-family: var(--font-family-body);
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  font-weight: 400;
+  transition: color 0.3s ease-in;
+}
+
+a:hover {
+  color: #7d2e68;
+  text-decoration-line: underline;
+  text-decoration-style: wavy;
+}
+
+/* Main Styles */
+
+h1 {
+  text-align: center;
+  font-size: 100px;
+  font-family: var(--font-family);
+  transition: color 0.3s ease-in;
+  margin-top: 50px;
+  margin-bottom: 10px;
+}
+
+h1:hover {
+  color: #e30b5d;
+  text-decoration-line: underline;
+  text-decoration-style: wavy;
+}
+
+hr {
+  width: 95%;
+  background-color: grey;
+}
+
+/* Form Styles */
+.contact-form-wrapper {
+  display: flex;
+  width: 80%;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+
+.name-wrapper {
+  display: flex;
+  gap: 50px;
+  margin-bottom: 30px;
+  margin-top: 20px;
+}
+
+.email-wrapper,
+.phone-wrapper,
+.message-wrapper {
+  margin-bottom: 30px;
+}
+
+#email_address,
+#phone-number,
+#message {
+  width: 550px;
+}
+
+#message {
+  height: 100px;
+  padding: 10px;
+}
+
+button {
+  background-color: black;
+  color: white;
+  height: 50px;
+  width: 550px;
+  font-family: var(--font-family);
+  font-size: 18px;
+  border: none;
+  border-radius: 5px;
+}
+
+input {
+  height: 50px;
+  width: 250px;
+  margin-top: 10px;
+  font-family: var(--font-family-body);
+  padding: 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+}
+
+::placeholder {
+  font-family: var(--font-family-body);
+  padding-left: 10px;
+}
+
+label {
+  font-weight: 400;
+  font-family: var(--font-family);
+  font-size: 20px;
+}
+
+img {
+  height: 600px;
+  margin-left: 100px;
+}
+
+/* Javascript Styling */
+.error-message {
+  display: block;
+  color: #e30b5d;
+}
