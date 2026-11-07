@@ -50,6 +50,7 @@ a {
 ul {
   display: flex;
   justify-content: space-evenly;
+  margin-bottom: 0px;
 }
 
 ul > li {
@@ -74,10 +75,10 @@ a:hover {
 
 h1 {
   text-align: center;
-  font-size: 40px;
+  font-size: 80px;
   font-family: var(--font-family);
   transition: color 0.3s ease-in;
-  margin-top: 20px;
+  margin-top: 0px;
   margin-bottom: 10px;
 }
 
@@ -111,7 +112,7 @@ hr {
 }
 
 #about-photo {
-  margin-top: 50px;
+  margin-top: 80px;
   max-width: 80%;
   transform: rotate(7deg);
 }
