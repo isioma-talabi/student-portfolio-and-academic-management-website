@@ -165,3 +165,77 @@ img {
   display: block;
   color: #e30b5d;
 }
+
+/* Media Queries for Mobile Devices */
+
+@media screen and (max-width: 500px) {
+  body {
+    max-width: 100%;
+    overflow-x: hidden;
+    font-size: 16px;
+  }
+
+  ul {
+    display: block;
+  }
+
+  #name-logo {
+    margin-right: 0px;
+    margin-bottom: 30px;
+  }
+
+  h1 {
+    font-size: 40px;
+    margin-bottom: 0px;
+  }
+
+  h2 {
+    font-size: 20px;
+  }
+
+  a {
+    color: #7d2e68;
+  }
+
+  .name-logo-sty {
+    color: black;
+  }
+
+  hr {
+    width: 100%;
+    background-color: grey;
+    margin: 0 auto;
+    margin-top: 10px;
+  }
+
+  .contact-form-wrapper {
+    display: block;
+  }
+
+  .name-wrapper {
+    display: block;
+  }
+
+  #email_address,
+  #phone-number,
+  #message {
+    width: 100%;
+  }
+
+  input {
+    width: 100%;
+  }
+
+  .lname-wrapper {
+    margin-top: 30px;
+  }
+
+  button {
+    width: 100%;
+  }
+
+  img {
+  height: 300px;
+  margin-left: 0px;
+}
+}
